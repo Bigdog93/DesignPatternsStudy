@@ -28,4 +28,8 @@ public class Car {
     public void setEngine(String engine) {
         this.engine = engine;
     }
+
+    public static CarBuilder builder() {
+        return new CarBuilder();
+    }
 }

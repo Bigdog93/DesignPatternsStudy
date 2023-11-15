@@ -13,19 +13,19 @@ public class CarBuilder implements Builder{
     }
 
     @Override
-    public Builder seats(int num) {
+    public CarBuilder seats(int num) {
         this.car.setSeats(num);
         return this;
     }
 
     @Override
-    public Builder engine(String engine) {
+    public CarBuilder engine(String engine) {
         this.car.setEngine(engine);
         return this;
     }
 
     @Override
-    public Builder tripDistance(int distance) {
+    public CarBuilder tripDistance(int distance) {
         this.car.setTripDistance(distance);
         return this;
     }
